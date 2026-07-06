@@ -22,6 +22,9 @@ Hugo uses file caches to store data on disk, avoiding repeated operations within
 
 `images`
 : Caches processed images.
+caches:
+  images:
+    dir: :cacheDir/images
 
 `misc`
 : Caches miscellaneous data.
